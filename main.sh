@@ -1,4 +1,5 @@
 #!/bin/bash
+user_name="$USER"
 
 cd ~
 echo "Downloading needed files started"
