@@ -1,6 +1,14 @@
 #!/bin/bash
 
-user_name="$USER"
+user_name=$(who am i | awk '{print $1}')
+
+if [[ $(id -u) -ne 0 ]]; then
+  echo "This script must be run as root (with sudo)."
+  exit 1
+fi
+
+curl -s "https://raw.githubusercontent.com/saint-13/Linux_Dynamic_Wallpapers/main/Easy_Install.sh" | sudo bash
+su "$user_name"
 
 # Cleaning previous directories
 echo "Cleaning directories..."
