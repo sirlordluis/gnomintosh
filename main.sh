@@ -1,7 +1,6 @@
 #!/bin/bash
 user_name="$USER"
 
-cd ~
 echo "Downloading needed files started"
 git clone https://github.com/saint-13/Linux_Dynamic_Wallpapers.git  
 cd Linux_Dynamic_Wallpapers
@@ -17,7 +16,7 @@ echo "Installing wallpapers..."
 sudo cp -r ./Dynamic_Wallpapers/ /usr/share/backgrounds/
 sudo cp ./xml/* /usr/share/gnome-background-properties/
 echo "Dynamic Wallpapers has been installed!"
-cd ~ 
+cd .. 
 echo "Deleting files used only for the installation process"
 sudo rm -r Linux_Dynamic_Wallpapers
 echo "    |"
