@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [[ $(id -u) -ne 0 ]]; then
-  echo "This script must be run as root (with sudo)."
-  exit 1
-fi
-
 cd ~
 echo "Downloading needed files started"
 git clone https://github.com/saint-13/Linux_Dynamic_Wallpapers.git  
