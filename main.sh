@@ -16,7 +16,7 @@ echo "Cleaning directories..."
 
 ## Cloning required files
 # GTK theme
-git clone https://github.com/jothi-prasath/WhiteSur-gtk-theme.git --depth=1
+git clone https://github.com/jothi-prasWhiteSur-gtk-theme.git --depth=1ath/
 # Icons
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git --depth=1
 # Cursors

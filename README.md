@@ -75,7 +75,7 @@ Please follow these steps to install and apply the Gnomintosh theme:
 
 1. Clone or download the repository to your local machine.
 ```bash
-git clone https://github.com/jothi-prasath/gnomintosh.git
+git clone https://github.com/sirlordluis/gnomintosh.git
 ```
 2. Navigate to the cloned repository directory.
 ```bash
@@ -134,3 +134,5 @@ GTK Theme - https://github.com/vinceliuice/WhiteSur-gtk-theme
 Icon - https://github.com/vinceliuice/WhiteSur-icon-theme
 
 Cursor - https://github.com/vinceliuice/WhiteSur-cursors
+
+Wallpaper - https://github.com/saint-13/Linux_Dynamic_Wallpapers
