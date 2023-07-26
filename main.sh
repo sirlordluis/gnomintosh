@@ -1,7 +1,5 @@
 #!/bin/bash
 
-user_name=$(who am i | awk '{print $1}')
-
 if [[ $(id -u) -ne 0 ]]; then
   echo "This script must be run as root (with sudo)."
   exit 1
@@ -29,8 +27,6 @@ sudo rm -r Linux_Dynamic_Wallpapers
 echo "    |"
 echo "    '---> Deleted unneeded files!"
 echo "Now, don't forget to set your preferred dynamic wallpaper from Settings!"
-
-su "$user_name"
 
 # Cleaning previous directories
 echo "Cleaning directories..."
