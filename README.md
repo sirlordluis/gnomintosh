@@ -3,7 +3,7 @@
 </div>
 
 # Gnomintosh
-Gnomintosh is a macOS-inspired theme for the GNOME desktop environment, bringing a familiar look and feel to your Linux system. It includes dconf configurations, themes, icons, cursors, wallpapers, and fonts to provide a comprehensive visual experience.
+Gnomintosh is a macOS-inspired theme for the GNOME desktop environment, bringing a familiar look and feel to your Linux system. It includes dconf configurations, themes, icons, cursors, dynamic wallpapers (day/night), and fonts to provide a comprehensive visual experience.
 
 ## Table of contents
 - [Screenshots](#screenshots)
@@ -84,7 +84,8 @@ cd gnomintosh
 3. Install the necessary [Required packages](#required-packages) and [Required extentions](#required-gnome-extensions)
 4. Run the following command
 ```bash
-sudo bash main.sh
+chmod +x main.sh
+./main.sh
 ```
 This script will guide you through the installation of the theme, icons, cursors, wallpapers, and fonts.
 
