@@ -61,4 +61,11 @@ gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/$user_
 dconf load / < dconf/settings.dconf
 
 # Fonts
-cp fonts/* ~/.local/share/fonts/ 
+if [ ! -d ~/.local/share/fonts/ ]; then
+    # Create directory if not exist
+    mkdir -p ~/.local/share/fonts/
+else
+    
+fi
+cp fonts/* ~/.local/share/fonts/
+fc-cache -fv
